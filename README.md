@@ -12,11 +12,11 @@ Ardından proje 8082 portunda ayağa kalkacaktır.
 Hexagonal mimaride, sistemin dış dünya ile etkileşim kurduğu yerdir.
 Sistem dışındaki giriş (inbound) ve çıkış (outbound) noktalarını yönetir.
 
-⋅⋅* Alt Dizini: inbound.web
-⋅⋅* CustomerController: Giriş noktalarını temsil eder. Genelde HTTP isteklerini (REST API) karşılar.
+⋅⋅Alt Dizini: inbound.web
+⋅⋅CustomerController: Giriş noktalarını temsil eder. Genelde HTTP isteklerini (REST API) karşılar.
 Inbound (Giriş), dış dünyadan (örn. kullanıcı, başka sistemler) gelen talepleri uygulama katmanına iletir.
 
-Alt Dizini: outbound.persistence
+⋅⋅Alt Dizini: outbound.persistence
 
 CustomerEntity:
 Veritabanındaki müşteri tablosuna karşılık gelen bir JPA (veya ORM) nesnesidir.
